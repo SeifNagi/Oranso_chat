@@ -56,7 +56,7 @@ Project is created with:
 ## How to use
 #### Step1: you need to download or clone this repo
 ```
-git https://github.com/SeifNagi/Oranso_chat/
+git clone https://github.com/SeifNagi/Oranso_chat.git
 ```
 #### Step2: you need to get all dependencies
 ```
