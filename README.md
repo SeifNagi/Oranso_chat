@@ -6,6 +6,7 @@ It is a place where you meet the experts beside on your interests
 * [Demo](#demo)
 * [Technologies](#technologies)
 * [How to use](#how-to-use)
+* [Project Structure](#project-structure)
 
 ## General info
 This is an application named Oranso.The idea of this application is to help perople from different fields to contact each other whehter by the recommindation or by adding.Every expert has its own rate and also can add him/her to your favourite list.
@@ -35,8 +36,8 @@ This is an application named Oranso.The idea of this application is to help pero
   </tr>
   <tr>
     <td>Home Page</td>
-     <td>click on favourite</td>
-    <td>click on favourite</td>
+     <td>After clicking on favourite</td>
+    <td>Scrolling the dragable sheet</td>
   </tr>
   <tr>
     <td><img src="screenshots/defult_home_page.jpg" width=240></td>
@@ -64,4 +65,29 @@ flutter pub get
 #### Step 3: run the project
 ```
 flutter run lib/main.dart
+```
+## Project Structure
+```
+Oranso_chat/
+├── lib/
+│   ├── bloc/
+│   │   ├── chat_bloc
+│   │   ├── chat_states
+│   │   ├── reaction_state
+│   │   └── reaction_bloc
+│   ├── data/
+│   │   ├── dome_data
+│   │   ├── chat_model
+│   │   └── reaction_model
+│   └── presentation/
+│       ├── page/
+│       │   ├── chatPage 
+│       │   └── homePage/
+│       │       └── components
+│       ├── style 
+│       └── widget
+└── assets/
+    ├── home
+    ├── getStarted
+    └── splash
 ```
